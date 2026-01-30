@@ -1,0 +1,449 @@
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects$ git clone https://github.com/AkashSrivastava1805/Winter-Training-Projects.git
+Cloning into 'Winter-Training-Projects'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects$ ls
+Winter-Training-Projects
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects$ cd Winter-Training-Projects
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ ls
+README.md
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ git init
+Reinitialized existing Git repository in /mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/.git/
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ git branch
+* main
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ git branch node-projects
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ git checkout node-projects
+Switched to branch 'node-projects'
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ git branch
+  main
+* node-projects
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ ls
+README.md
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ rm README.md
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ mkdir full-stack-job-portal-client-main full-stack-job-portal-server-main
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ cd full-stack-job-portal-server-main
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main$ ls
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portaaaaaaaaakashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main$ mkdir Controller Middleware Model Router Utils Validation
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main$ cd Controller
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Controller$ vi AdminController.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Controller$ vi ApplicationController.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Controller$ vi JobController.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Controller$ vi UserController.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Controller$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main$ cd Middleware
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Middleware$ vi UserAuthenticationMiddleware.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Middleware$ vi UserAuthorizationMiddleware.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Middleware$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main$ cd Model
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Model$ vi ApplicationModel.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Model$ vi JobModel.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Model$ vi UserModel.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Model$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main$ cd Router
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Router$ vi AdminRouter.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Router$ vi ApplicationRouter.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Router$ vi AuthRouter.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Router$ vi JobRouter.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Router$ vi UserRouter.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Router$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main$ cd Utils
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Utils$ vi ApplicationConstants.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Utils$ vi DBconnect.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Utils$ vi JWTGenerator.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Utils$ vi JobConstants.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Utils$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main$ cd Validation
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Validation$ vi ApplicationDataRules.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Validation$ vi JobDataRules.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Validation$ vi UserDataRules.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Validation$ vi ValidationMiddleware.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main/Validation$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main$ vi App.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main$ vi Server.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main$ ls
+App.js  Controller  Middleware  Model  Router  Server.js  Utils  Validation
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ ls
+full-stack-job-portal-client-main  full-stack-job-portal-server-main
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ git status
+On branch node-projects
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        full-stack-job-portal-server-main/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ git add .
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ git status
+On branch node-projects
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    README.md
+        new file:   full-stack-job-portal-server-main/App.js
+        new file:   full-stack-job-portal-server-main/Controller/AdminController.js
+        new file:   full-stack-job-portal-server-main/Controller/ApplicationController.js
+        new file:   full-stack-job-portal-server-main/Controller/JobController.js
+        new file:   full-stack-job-portal-server-main/Controller/UserController.js
+        new file:   full-stack-job-portal-server-main/Middleware/UserAuthenticationMiddleware.js
+        new file:   full-stack-job-portal-server-main/Middleware/UserAuthorizationMiddleware.js
+        new file:   full-stack-job-portal-server-main/Model/ApplicationModel.js
+        new file:   full-stack-job-portal-server-main/Model/JobModel.js
+        new file:   full-stack-job-portal-server-main/Model/UserModel.js
+        new file:   full-stack-job-portal-server-main/Router/AdminRouter.js
+        new file:   full-stack-job-portal-server-main/Router/ApplicationRouter.js
+        new file:   full-stack-job-portal-server-main/Router/AuthRouter.js
+        new file:   full-stack-job-portal-server-main/Router/JobRouter.js
+        new file:   full-stack-job-portal-server-main/Router/UserRouter.js
+        new file:   full-stack-job-portal-server-main/Server.js
+        new file:   full-stack-job-portal-server-main/Utils/ApplicationConstants.js
+        new file:   full-stack-job-portal-server-main/Utils/DBconnect.js
+        new file:   full-stack-job-portal-server-main/Utils/JWTGenerator.js
+        new file:   full-stack-job-portal-server-main/Utils/JobConstants.js
+        new file:   full-stack-job-portal-server-main/Validation/ApplicationDataRules.js
+        new file:   full-stack-job-portal-server-main/Validation/JobDataRules.js
+        new file:   full-stack-job-portal-server-main/Validation/UserDataRules.js
+        new file:   full-stack-job-portal-server-main/Validation/ValidationMiddleware.js
+
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ git commit -m "Backend Completed"
+[node-projects 249933f] Backend Completed
+ 25 files changed, 1464 insertions(+), 1 deletion(-)
+ delete mode 100644 README.md
+ create mode 100644 full-stack-job-portal-server-main/App.js
+ create mode 100644 full-stack-job-portal-server-main/Controller/AdminController.js
+ create mode 100644 full-stack-job-portal-server-main/Controller/ApplicationController.js
+ create mode 100644 full-stack-job-portal-server-main/Controller/JobController.js
+ create mode 100644 full-stack-job-portal-server-main/Controller/UserController.js
+ create mode 100644 full-stack-job-portal-server-main/Middleware/UserAuthenticationMiddleware.js
+ create mode 100644 full-stack-job-portal-server-main/Middleware/UserAuthorizationMiddleware.js
+ create mode 100644 full-stack-job-portal-server-main/Model/ApplicationModel.js
+ create mode 100644 full-stack-job-portal-server-main/Model/JobModel.js
+ create mode 100644 full-stack-job-portal-server-main/Model/UserModel.js
+ create mode 100644 full-stack-job-portal-server-main/Router/AdminRouter.js
+ create mode 100644 full-stack-job-portal-server-main/Router/ApplicationRouter.js
+ create mode 100644 full-stack-job-portal-server-main/Router/AuthRouter.js
+ create mode 100644 full-stack-job-portal-server-main/Router/JobRouter.js
+ create mode 100644 full-stack-job-portal-server-main/Router/UserRouter.js
+ create mode 100644 full-stack-job-portal-server-main/Server.js
+ create mode 100644 full-stack-job-portal-server-main/Utils/ApplicationConstants.js
+ create mode 100644 full-stack-job-portal-server-main/Utils/DBconnect.js
+ create mode 100644 full-stack-job-portal-server-main/Utils/JWTGenerator.js
+ create mode 100644 full-stack-job-portal-server-main/Utils/JobConstants.js
+ create mode 100644 full-stack-job-portal-server-main/Validation/ApplicationDataRules.js
+ create mode 100644 full-stack-job-portal-server-main/Validation/JobDataRules.js
+ create mode 100644 full-stack-job-portal-server-main/Validation/UserDataRules.js
+ create mode 100644 full-stack-job-portal-server-main/Validation/ValidationMiddleware.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ git status
+On branch node-projects
+nothing to commit, working tree clean
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ git branch
+  main
+* node-projects
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ git push origin node-projects
+Username for 'https://github.com': AkashSrivastava1805
+Password for 'https://AkashSrivastava1805@github.com':
+Enumerating objects: 34, done.
+Counting objects: 100% (34/34), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (33/33), done.
+Writing objects: 100% (33/33), 13.20 KiB | 182.00 KiB/s, done.
+Total 33 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+remote:
+remote: Create a pull request for 'node-projects' on GitHub by visiting:
+remote:      https://github.com/AkashSrivastava1805/Winter-Training-Projects/pull/new/node-projects
+remote:
+To https://github.com/AkashSrivastava1805/Winter-Training-Projects.git
+ * [new branch]      node-projects -> node-projects
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ ls
+full-stack-job-portal-client-main  full-stack-job-portal-server-main
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ cd full-stack-job-portal-client-main
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main$ mkdir src
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main$ cd src
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src$ mkdir Layout Router assets components context pages utils
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src$ cd Layout
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/Layout$ vi DashboardLayout.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/Layout$ vi HomeLayout.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/Layout$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src$ cd Router
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/Router$ vi Routes.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/Router$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src$ cd assets
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/assets$ mkdir css/wrappers media
+mkdir: cannot create directory ‘css/wrappers’: No such file or directory
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/assets$ ls
+media
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/assets$ mkdir css
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/assets$ ls
+css  media
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/assets$ cd css
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/assets/css$ mkdir wrappers
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/assets/css$ cd wrappers
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/assets/css/wrappers$ vi Dashboard.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/assets/css/wrappers$ vi LandingPage.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/assets/css/wrappers$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/assets/css$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/assets$ cd media
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/assets/media$ mkdir 404 LandingPage
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/assets/media$ cd 404
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/assets/media/404$
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/assets/media/404$ cd ../../
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/assets$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src$ cd components
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components$ mkdir AllJobsPage "Home Page" MyJobsPage shared
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components$ vi Logo.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components$ vi index.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components$ cd AllJobsPage
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/AllJobsPage$ vi JobCard.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/AllJobsPage$ vi JobsListCom.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/AllJobsPage$ vi PaginationCom.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/AllJobsPage$ vi SearchAndFilter.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/AllJobsPage$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components$ cd "Home Page"
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/Home Page$ vi Brands.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/Home Page$ vi HowWorks.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/Home Page$ vi PopularCategory.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/Home Page$ vi Team.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/Home Page$ vi Testimonial.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/Home Page$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components$ cd MyJobsPage
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/MyJobsPage$ vi Applicant.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/MyJobsPage$ vi Recruiter.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/MyJobsPage$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components$ ls
+ AllJobsPage  'Home Page'   Logo.jsx   MyJobsPage   index.js   shared
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components$ cd shared
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/shared$ vi CommonProtectRoute.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/shared$ vi DashboardNavLinks.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/shared$ vi DashboardNavbar.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/shared$ vi LargeSidebar.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/shared$ vi Loading.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/shared$ vi LoadingComTwo.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/shared$ vi Navbar.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/shared$ vi ProtectAdminRoute.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/shared$ vi RecruiterRoute.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/shared$ vi SmallSidebar.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components/shared$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components$ ls
+ AllJobsPage  'Home Page'   Logo.jsx   MyJobsPage   index.js   shared
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/components$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src$ cd contexr
+-bash: cd: contexr: No such file or directory
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src$ cd context
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/context$ vi JobContext.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/context$ vi UserContext.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/context$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src$ cd utils
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/utils$ vi DashboardNavLinkData.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/utils$ vi FetchHandlers.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/utils$ vi JobData.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/utils$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src$ ls
+Layout  Router  assets  components  context  pages  utils
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src$ vi App.css
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src$ vi index.css
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src$ vi main.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src$ cd pages
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ vi AddJob.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ vi Admin.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ vi AllJobs.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ vi DeleteJob.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ vi EditJob.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ vi EditProfile.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ vi EditProfile.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ rm EditProfile.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ vi EditProfile.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ vi Error.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ vi ErrorJob.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ vi Footer.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ vi HomeLayout.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ vi Job.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ vi Landing.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ vi Login.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ vi ManageJobs.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ vi ManageUsers.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ vi MyJobs.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ vi Profile.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ vi Register.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ vi stats.jsx
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ vi index.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src/pages$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src$ ls
+App.css  Layout  Router  assets  components  context  index.css  main.jsx  pages  utils
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main/src$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main$ vi .eslintrc.cjs
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main$ vi index.html
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main$ vi package-lock.json
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main$ vi package.json
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main$ vi postcss.config.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main$ vi tailwind.config.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main$ vi vercel.json
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main$ vi vite.config.js
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main$ vi yarn.lock
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ git status
+On branch node-projects
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        full-stack-job-portal-client-main/
+
+nothing added to commit but untracked files present (use "git add" to track)
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ git add .
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ git status
+On branch node-projects
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   full-stack-job-portal-client-main/.eslintrc.cjs
+        new file:   full-stack-job-portal-client-main/index.html
+        new file:   full-stack-job-portal-client-main/package-lock.json
+        new file:   full-stack-job-portal-client-main/package.json
+        new file:   full-stack-job-portal-client-main/postcss.config.js
+        new file:   full-stack-job-portal-client-main/src/App.css
+        new file:   full-stack-job-portal-client-main/src/Layout/DashboardLayout.jsx
+        new file:   full-stack-job-portal-client-main/src/Layout/HomeLayout.jsx
+        new file:   full-stack-job-portal-client-main/src/Router/Routes.jsx
+        new file:   full-stack-job-portal-client-main/src/assets/css/wrappers/Dashboard.js
+        new file:   full-stack-job-portal-client-main/src/assets/css/wrappers/LandingPage.js
+        new file:   full-stack-job-portal-client-main/src/components/AllJobsPage/JobCard.jsx
+        new file:   full-stack-job-portal-client-main/src/components/AllJobsPage/JobsListCom.jsx
+        new file:   full-stack-job-portal-client-main/src/components/AllJobsPage/PaginationCom.jsx
+        new file:   full-stack-job-portal-client-main/src/components/AllJobsPage/SearchAndFilter.jsx
+        new file:   full-stack-job-portal-client-main/src/components/Home Page/Brands.jsx
+        new file:   full-stack-job-portal-client-main/src/components/Home Page/HowWorks.jsx
+        new file:   full-stack-job-portal-client-main/src/components/Home Page/PopularCategory.jsx
+        new file:   full-stack-job-portal-client-main/src/components/Home Page/Team.jsx
+        new file:   full-stack-job-portal-client-main/src/components/Home Page/Testimonial.jsx
+        new file:   full-stack-job-portal-client-main/src/components/Logo.jsx
+        new file:   full-stack-job-portal-client-main/src/components/MyJobsPage/Applicant.jsx
+        new file:   full-stack-job-portal-client-main/src/components/MyJobsPage/Recruiter.jsx
+        new file:   full-stack-job-portal-client-main/src/components/index.js
+        new file:   full-stack-job-portal-client-main/src/components/shared/CommonProtectRoute.jsx
+        new file:   full-stack-job-portal-client-main/src/components/shared/DashboardNavLinks.jsx
+        new file:   full-stack-job-portal-client-main/src/components/shared/DashboardNavbar.jsx
+        new file:   full-stack-job-portal-client-main/src/components/shared/LargeSidebar.jsx
+        new file:   full-stack-job-portal-client-main/src/components/shared/Loading.jsx
+        new file:   full-stack-job-portal-client-main/src/components/shared/LoadingComTwo.jsx
+        new file:   full-stack-job-portal-client-main/src/components/shared/Navbar.jsx
+        new file:   full-stack-job-portal-client-main/src/components/shared/ProtectAdminRoute.jsx
+        new file:   full-stack-job-portal-client-main/src/components/shared/RecruiterRoute.jsx
+        new file:   full-stack-job-portal-client-main/src/components/shared/SmallSidebar.jsx
+        new file:   full-stack-job-portal-client-main/src/context/JobContext.jsx
+        new file:   full-stack-job-portal-client-main/src/context/UserContext.jsx
+        new file:   full-stack-job-portal-client-main/src/index.css
+        new file:   full-stack-job-portal-client-main/src/main.jsx
+        new file:   full-stack-job-portal-client-main/src/pages/AddJob.jsx
+        new file:   full-stack-job-portal-client-main/src/pages/Admin.jsx
+        new file:   full-stack-job-portal-client-main/src/pages/AllJobs.jsx
+        new file:   full-stack-job-portal-client-main/src/pages/DeleteJob.jsx
+        new file:   full-stack-job-portal-client-main/src/pages/EditJob.jsx
+        new file:   full-stack-job-portal-client-main/src/pages/EditProfile.jsx
+        new file:   full-stack-job-portal-client-main/src/pages/Error.jsx
+        new file:   full-stack-job-portal-client-main/src/pages/ErrorJob.jsx
+        new file:   full-stack-job-portal-client-main/src/pages/Footer.jsx
+        new file:   full-stack-job-portal-client-main/src/pages/HomeLayout.jsx
+        new file:   full-stack-job-portal-client-main/src/pages/Job.jsx
+        new file:   full-stack-job-portal-client-main/src/pages/Landing.jsx
+        new file:   full-stack-job-portal-client-main/src/pages/Login.jsx
+        new file:   full-stack-job-portal-client-main/src/pages/ManageJobs.jsx
+        new file:   full-stack-job-portal-client-main/src/pages/ManageUsers.jsx
+        new file:   full-stack-job-portal-client-main/src/pages/MyJobs.jsx
+        new file:   full-stack-job-portal-client-main/src/pages/Profile.jsx
+        new file:   full-stack-job-portal-client-main/src/pages/Register.jsx
+        new file:   full-stack-job-portal-client-main/src/pages/index.js
+        new file:   full-stack-job-portal-client-main/src/pages/stats.jsx
+        new file:   full-stack-job-portal-client-main/src/utils/DashboardNavLinkData.jsx
+        new file:   full-stack-job-portal-client-main/src/utils/FetchHandlers.js
+        new file:   full-stack-job-portal-client-main/src/utils/JobData.js
+        new file:   full-stack-job-portal-client-main/tailwind.config.js
+        new file:   full-stack-job-portal-client-main/vercel.json
+        new file:   full-stack-job-portal-client-main/vite.config.js
+        new file:   full-stack-job-portal-client-main/yarn.lock
+
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ git commit -m "Frontend Completed"
+[node-projects aaaef00] Frontend Completed
+ 65 files changed, 14850 insertions(+)
+ create mode 100644 full-stack-job-portal-client-main/.eslintrc.cjs
+ create mode 100644 full-stack-job-portal-client-main/index.html
+ create mode 100644 full-stack-job-portal-client-main/package-lock.json
+ create mode 100644 full-stack-job-portal-client-main/package.json
+ create mode 100644 full-stack-job-portal-client-main/postcss.config.js
+ create mode 100644 full-stack-job-portal-client-main/src/App.css
+ create mode 100644 full-stack-job-portal-client-main/src/Layout/DashboardLayout.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/Layout/HomeLayout.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/Router/Routes.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/assets/css/wrappers/Dashboard.js
+ create mode 100644 full-stack-job-portal-client-main/src/assets/css/wrappers/LandingPage.js
+ create mode 100644 full-stack-job-portal-client-main/src/components/AllJobsPage/JobCard.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/components/AllJobsPage/JobsListCom.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/components/AllJobsPage/PaginationCom.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/components/AllJobsPage/SearchAndFilter.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/components/Home Page/Brands.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/components/Home Page/HowWorks.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/components/Home Page/PopularCategory.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/components/Home Page/Team.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/components/Home Page/Testimonial.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/components/Logo.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/components/MyJobsPage/Applicant.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/components/MyJobsPage/Recruiter.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/components/index.js
+ create mode 100644 full-stack-job-portal-client-main/src/components/shared/CommonProtectRoute.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/components/shared/DashboardNavLinks.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/components/shared/DashboardNavbar.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/components/shared/LargeSidebar.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/components/shared/Loading.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/components/shared/LoadingComTwo.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/components/shared/Navbar.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/components/shared/ProtectAdminRoute.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/components/shared/RecruiterRoute.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/components/shared/SmallSidebar.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/context/JobContext.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/context/UserContext.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/index.css
+ create mode 100644 full-stack-job-portal-client-main/src/main.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/pages/AddJob.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/pages/Admin.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/pages/AllJobs.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/pages/DeleteJob.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/pages/EditJob.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/pages/EditProfile.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/pages/Error.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/pages/ErrorJob.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/pages/Footer.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/pages/HomeLayout.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/pages/Job.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/pages/Landing.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/pages/Login.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/pages/ManageJobs.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/pages/ManageUsers.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/pages/MyJobs.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/pages/Profile.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/pages/Register.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/pages/index.js
+ create mode 100644 full-stack-job-portal-client-main/src/pages/stats.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/utils/DashboardNavLinkData.jsx
+ create mode 100644 full-stack-job-portal-client-main/src/utils/FetchHandlers.js
+ create mode 100644 full-stack-job-portal-client-main/src/utils/JobData.js
+ create mode 100644 full-stack-job-portal-client-main/tailwind.config.js
+ create mode 100644 full-stack-job-portal-client-main/vercel.json
+ create mode 100644 full-stack-job-portal-client-main/vite.config.js
+ create mode 100644 full-stack-job-portal-client-main/yarn.lock
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ git branch
+  main
+* node-projects
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ git push origin node-projects
+Username for 'https://github.com': AkashSrivastava1805
+Password for 'https://AkashSrivastava1805@github.com':
+Enumerating objects: 82, done.
+Counting objects: 100% (82/82), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (77/77), done.
+Writing objects: 100% (81/81), 139.00 KiB | 847.00 KiB/s, done.
+Total 81 (delta 11), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (11/11), done.
+To https://github.com/AkashSrivastava1805/Winter-Training-Projects.git
+   249933f..aaaef00  node-projects -> node-projects
