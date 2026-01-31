@@ -1,0 +1,82 @@
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ ls
+full-stack-job-portal-client-main  full-stack-job-portal-server-main  typescript.txt
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ cd full-stack-job-portal-server-main
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main$ vi Dockerfile
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-server-main$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ cd full-stack-job-portal-client-main
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main$ vi Dockerfile
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/full-stack-job-portal-client-main$ cd ..
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ vi docker-compose.yml
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ docker compose up --build
+WARN[0000] /mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion
+[+] Building 27.2s (26/26) FINISHED
+ => [internal] load local bake definitions                                                                         0.0s
+ => => reading from stdin 1.28kB                                                                                   0.0s
+ => [frontend internal] load build definition from Dockerfile                                                      0.1s
+ => => transferring dockerfile: 351B                                                                               0.1s
+ => [backend internal] load build definition from Dockerfile                                                       0.1s
+ => => transferring dockerfile: 156B                                                                               0.1s
+ => [frontend internal] load metadata for docker.io/library/nginx:alpine                                           1.9s
+ => [frontend internal] load metadata for docker.io/library/node:18-alpine                                         1.9s
+ => [auth] library/node:pull token for registry-1.docker.io                                                        0.0s
+ => [auth] library/nginx:pull token for registry-1.docker.io                                                       0.0s
+ => [backend internal] load .dockerignore                                                                          0.1s
+ => => transferring context: 2B                                                                                    0.1s
+ => [frontend internal] load .dockerignore                                                                         0.1s
+ => => transferring context: 2B                                                                                    0.1s
+ => CACHED [frontend stage-1 1/2] FROM docker.io/library/nginx:alpine@sha256:4870c12cd2ca986de501a804b4f506ad3875  0.0s
+ => => resolve docker.io/library/nginx:alpine@sha256:4870c12cd2ca986de501a804b4f506ad3875a0b1874940ba0a2c7f763f18  0.0s
+ => [frontend build 1/6] FROM docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d11894558  0.0s
+ => => resolve docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8c  0.0s
+ => [frontend internal] load build context                                                                         0.7s
+ => => transferring context: 5.50kB                                                                                0.7s
+ => [backend internal] load build context                                                                          0.2s
+ => => transferring context: 1.40kB                                                                                0.2s
+ => CACHED [frontend build 2/6] WORKDIR /app                                                                       0.0s
+ => CACHED [backend 3/5] COPY package*.json ./                                                                     0.0s
+ => CACHED [backend 4/5] RUN npm install                                                                           0.0s
+ => CACHED [backend 5/5] COPY . .                                                                                  0.0s
+ => [backend] exporting to image                                                                                   0.1s
+ => => exporting layers                                                                                            0.0s
+ => => exporting manifest sha256:e87de291d2df5ccf278ec208955ba1283c997ccac349588169721fc9f58b9cd5                  0.0s
+ => => exporting config sha256:865a257b5f8a9b33d66461a05618db499015c873c723cdb186d933e7b95b8222                    0.0s
+ => => exporting attestation manifest sha256:a1145feadb3e36830d58c2b06574745397f989413787ffcbab4ca3a22dc590e6      0.0s
+ => => exporting manifest list sha256:dccce285d770fe23b9bbaead1bcc55d4f0e99d89d55742e52ed80d85f0edf1df             0.0s
+ => => naming to docker.io/library/winter-training-projects-backend:latest                                         0.0s
+ => => unpacking to docker.io/library/winter-training-projects-backend:latest                                      0.0s
+ => [backend] resolving provenance for metadata file                                                               0.0s
+ => CACHED [frontend build 3/6] COPY package*.json ./                                                              0.0s
+ => CACHED [frontend build 4/6] RUN npm install                                                                    0.0s
+ => [frontend build 5/6] COPY . .                                                                                  0.1s
+ => [frontend build 6/6] RUN npm run build                                                                        19.3s
+ => [frontend stage-1 2/2] COPY --from=build /app/dist /usr/share/nginx/html                                       0.1s
+ => [frontend] exporting to image                                                                                  0.4s
+ => => exporting layers                                                                                            0.2s
+ => => exporting manifest sha256:d19257eff92dbc149a1b4f009fa38612fca77706c456b996645c7de6df472bbb                  0.0s
+ => => exporting config sha256:f4a4f5e2c61e9758326713c79d7ce05151a817ebc1fe1d6d1522220f053dce4e                    0.0s
+ => => exporting attestation manifest sha256:0638089b6bb484d3a632b417669ae053908266a6492a2c3437f1e3f2fb1664db      0.0s
+ => => exporting manifest list sha256:97200cf5c6f9166384d17c60a5c64c1c8f301d7960d0374ecbe931f3a34c3b47             0.0s
+ => => naming to docker.io/library/winter-training-projects-frontend:latest                                        0.0s
+ => => unpacking to docker.io/library/winter-training-projects-frontend:latest                                     0.1s
+ => [frontend] resolving provenance for metadata file                                                              0.0s
+[+] up 5/5
+ ✔ Image winter-training-projects-backend   Built                                                                 29.3s
+ ✔ Image winter-training-projects-frontend  Built                                                                 29.3s
+ ✔ Network winter-training-projects_default Created                                                                0.1s
+ ✔ Container job-portal-backend             Created                                                                0.2s
+ ✔ Container job-portal-frontend            Created
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ docker compose up -d
+WARN[0000] /mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion
+WARN[0000] No services to build
+[+] up 1/1
+ ✔ Container job-portal-frontend Running                                                                           0.0s
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ docker ps
+CONTAINER ID   IMAGE                               COMMAND                  CREATED          STATUS                          PORTS                                     NAMES
+351b125c099d   winter-training-projects-frontend   "/docker-entrypoint.…"   12 minutes ago   Up 6 minutes                    0.0.0.0:3000->80/tcp, [::]:3000->80/tcp   job-portal-frontend
+7044906f66f7   winter-training-projects-backend    "docker-entrypoint.s…"   12 minutes ago   Restarting (1) 44 seconds ago                                             job-portal-backend
+akashsrivastava@LAPTOP-STLFGJOC:/mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects$ docker compose down
+WARN[0000] /mnt/c/Users/AKASH/Desktop/WT-Projects/Winter-Training-Projects/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion
+[+] down 3/3
+ ✔ Container job-portal-frontend            Removed                                                                0.5s
+ ✔ Container job-portal-backend             Removed                                                                0.1s
+ ✔ Network winter-training-projects_default Removed
